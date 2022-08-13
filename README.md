@@ -1,6 +1,6 @@
-# Front-End Challenge
+# Front-End Challenge (by coodesh)
 
-Desafio Front-End feito pela Pilar
+Desafio Front-End feito pela Pilar/Coodesh
 
 ## Para instalar as dependencias
 ```bash
