@@ -150,6 +150,7 @@ export default defineComponent({
             message: "Usuario não encontrado",
             color: "negative",
           });
+          return;
         }
 
         informacoes.value.foto = await dados.picture.large;
