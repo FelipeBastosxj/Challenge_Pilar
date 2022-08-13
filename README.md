@@ -23,15 +23,15 @@ npm run test:unit
 
 ### Tecnologias utilizadas
 ```bash
-Vue.js 3, Jest, Vuex, Router, API, Quasar.
+Vue.js 3, Jest, Vuex, Router, API, Quasar, firebase, Autenticação Google.
 ```
 
 
 
-### Build the app for production
+### Rodar em produção
 ```bash
 quasar build
 ```
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+### Autor
+[Felipe Bastos Xavier](https://www.linkedin.com/in/felipe-bastos-48376115b/).
