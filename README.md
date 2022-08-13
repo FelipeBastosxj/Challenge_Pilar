@@ -1,33 +1,29 @@
-# Quasar App (quasar-project)
+# Front-End Challenge
 
-A Quasar Project
+Desafio Front-End feito pela Pilar
 
-## Install the dependencies
+## Para instalar as dependencias
 ```bash
 yarn
-# or
+# ou
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Iniciar o app
 ```bash
 quasar dev
 ```
 
 
-### Lint the files
+### Rodar os testes unitarios
 ```bash
-yarn lint
-# or
-npm run lint
+npm run test:unit
 ```
 
 
-### Format the files
+### Tecnologias utilizadas
 ```bash
-yarn format
-# or
-npm run format
+Vue.js 3, Jest, Vuex, Router, API, Quasar.
 ```
 
 
