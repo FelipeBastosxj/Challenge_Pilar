@@ -9,6 +9,21 @@ yarn
 npm install
 ```
 
+## O projeto foi iniciado com quasar CLI então ira precisar instalar
+```bash
+npm i -g @quasar/cli
+```
+
+## Por precusão instale a extensão de .env do quasar
+```bash
+quasar ext add @quasar/dotenv
+```
+
+## Dentro da pasta procure por .env e adicione, como e so um teste não tem problema colocar aqui, mas nunca faça isso.
+```bash
+VUE_APP_API_URL= https://randomuser.me/api/
+```
+
 ### Iniciar o app
 ```bash
 quasar dev

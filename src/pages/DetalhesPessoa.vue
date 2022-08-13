@@ -42,7 +42,13 @@
           </div>
           <div style="width: 45%">
             <p class="text-bold">Data de nascimento:</p>
-            <span>{{ informacoes.nascimento }}</span>
+            <span>{{
+              informacoes.nascimento
+                .split("T")[0]
+                .split("-")
+                .reverse()
+                .join("/")
+            }}</span>
           </div>
         </div>
         <div style="width: 100%" class="row q-mt-md">
