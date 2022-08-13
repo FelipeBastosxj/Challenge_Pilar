@@ -23,7 +23,7 @@ npm run test:unit
 
 ### Tecnologias utilizadas
 ```bash
-Vue.js 3, Jest, Vuex, Router, API, Quasar, firebase, Autenticação Google.
+Vue.js 3, Jest, Vuex, Router, API, Quasar, firebase, Autenticação Google, Axios, Docker.
 ```
 
 
@@ -31,6 +31,16 @@ Vue.js 3, Jest, Vuex, Router, API, Quasar, firebase, Autenticação Google.
 ### Rodar em produção
 ```bash
 quasar build
+```
+
+### Para construir o container 
+```bash
+docker build -t nomeContainer  .
+```
+
+### Para rodar o container 
+```bash
+docker run -it -p 8000:80 --rm nomeContainer
 ```
 
 ### Autor

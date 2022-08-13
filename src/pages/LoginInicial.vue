@@ -1,16 +1,25 @@
 <template>
   <main class="base">
-    <div class="login">
-      <p class="text-h2 tite">Bem-Vindo</p>
-      <p class="text-h4 sub">Faça login para ter acesso a o sistema</p>
-      <q-btn
-        class="margin"
-        color="red"
-        icon-right="send"
-        label="Efetuar o login via google"
-        @click="login"
-      />
-    </div>
+    <q-card class="my-card">
+      <img src="../assets/coodesh.jpg" />
+      <q-card-section class="column justify-center">
+        <div class="row justify-center text-h6">Bem-Vindo a o desafio</div>
+        <div class="row justify-center text-subtitle2">
+          Clike no botão para fazer o login via google
+        </div>
+        <q-btn
+          class="margin"
+          color="red"
+          icon-right="send"
+          label="Efetuar o login via google"
+          @click="login"
+        />
+      </q-card-section>
+
+      <q-card-section class="q-pt-none">
+        {{ lorem }}
+      </q-card-section>
+    </q-card>
   </main>
 </template>
 
@@ -78,17 +87,9 @@ export default defineComponent({
   background-position: center;
   background-size: cover;
 }
-.login {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 75%;
-  width: 40%;
-  background-color: #00b3ff69;
-  border-radius: 8px;
-}
 img {
-  margin-top: 15px;
+  height: 520px !important;
+  width: 700px !important;
 }
 .margin {
   margin-top: 50px;

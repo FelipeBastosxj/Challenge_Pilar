@@ -139,6 +139,13 @@ export default defineComponent({
           return e.id.value == route.params.id;
         });
 
+        if (!dados) {
+          $q.notify({
+            message: "Usuario não encontrado",
+            color: "negative",
+          });
+        }
+
         informacoes.value.foto = await dados.picture.large;
         informacoes.value.primeiroNome = await dados.name.first;
         informacoes.value.segundoNome = await dados.name.last;
