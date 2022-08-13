@@ -14,7 +14,7 @@ npm install
 npm i -g @quasar/cli
 ```
 
-## Por precusão instale a extensão de .env do quasar
+## Por precaução instale a extensão de .env do quasar
 ```bash
 quasar ext add @quasar/dotenv
 ```
